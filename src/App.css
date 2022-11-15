@@ -1,0 +1,204 @@
+#root {
+ width: 100%;
+  margin: 0 auto;
+ padding: 0%;
+  text-align: center;
+}
+
+body
+{
+  width: 100%;
+  height:100vh;
+  font-family: sans-serif;
+  font-weight:600;
+  /* background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%); */
+  background-color: rgb(0, 0, 0 ,0.8);
+
+}
+
+
+.close-users{
+   position: fixed;
+   right: 0px;
+   z-index: 4;
+   height: 38px;
+   display: flex;
+   width: 250px;
+   align-items: center;
+   justify-content: space-between;
+}
+.close-users>div{
+ width: 150px;
+ height: 100%;
+ background: #fff;
+ border-radius: 20px;
+ margin: auto;
+ box-shadow: rgb(100, 100, 111,0.2) 8px 7px 29px 8px;
+padding: 8px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}  
+
+.close-users>div:hover{
+  background: black;
+  color: #c2d6ff;
+
+}
+
+.close{
+ 
+  height: 40px;
+  width: 120px;
+  border-radius: 20px;
+  margin-right: 20px;
+  background-color: #141414;
+  color: #fff;
+  
+}
+
+.conteiner-use{
+ width: 500px;
+ min-height: 100px;
+ background: #fff;
+ border-radius: 20px;
+ margin: auto;
+ box-shadow: rgb(100, 100, 111,0.2) 8px 7px 29px 8px;
+padding: 30px;
+position: relative;
+top: 180px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+svg {
+  width: 10%;
+  height: 10%;
+  color: #333 ;
+}
+svg:hover{
+  color: red;
+}
+
+.consteiner-name{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: #333 solid 1px;
+  margin: 0 auto;
+}
+.load-user{
+  margin-bottom: 20px;
+}
+
+.App{
+  width: 100%;
+}
+*{
+  padding: 0%;
+  box-sizing: border-box;
+  margin: 0%;
+}
+
+.cerrar{
+  height: 100%;
+  width: 100%;
+  background-color:rgb(0, 0, 0 , 0.8);
+  position: absolute;
+  top: 0%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.open{
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+li{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  
+}
+input{
+  width: 310px;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #dadada;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  font-size: 14px;
+  box-shadow: 0 0 10px;
+  border-radius: 5px;
+}
+form > div {
+  height: auto;
+  width: 350px;
+  margin: 0px auto 0;
+  background-color: #eee;
+  color: #333;
+  border: 2px sold #c2d6ff;
+  border-radius: 40px 0 40px 0;
+}
+label{
+  font-size: 15px;
+  font-weight: 700;
+  text-align: left;
+}
+ .user-car{
+  display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ width: 420px;
+ height: 100px;
+ background: #fff;
+ border-radius: 20px;
+ margin: auto;
+ box-shadow: rgb(100, 100, 111,0.2) 8px 7px 29px 8px;
+ margin-top: 0%;
+  
+}
+
+.birtday{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: left;
+
+}
+.title{
+  padding-bottom: 5px;
+  margin-bottom: 8px;
+  border-bottom: #333 solid 1px;
+  display: flex;
+  justify-content: center;
+}
+.conteiner-icons{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.conteiner{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
